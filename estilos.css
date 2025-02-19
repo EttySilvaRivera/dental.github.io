@@ -1,7 +1,7 @@
 #contenedor {
     width: 100%; /* El contenedor ocupa todo el ancho de la página */
     margin: auto; /* Centro el contenedor horizontalmente */
-    color: rgb(198, 219, 12); /* El color del texto dentro del contenedor sera blanco */
+    color: rgb(205, 225, 17); /* El color del texto dentro del contenedor sera blanco */
     }
     .logo {
     margin: 10px;
