@@ -1,45 +1,45 @@
 
 #contenedor {
-width: 100%;
-margin: auto;
-color: white;
+width: 100%; /* El contenedor ocupa todo el ancho de la página */
+margin: auto; /* Centro el contenedor horizontalmente */
+color: white; /* El color del texto dentro del contenedor sera blanco */
 }
 .logo {
 margin: 10px;
-float: left;
+float: left; /* El logo flote hacia la izquierda, permitiendo que el contenido fluya a su alrededor */
 }
 .banner {
     width: 100%;
-    height: 10cm;
+    height: 10cm; /* La altura del banner será de 10 centímetros */
 }
 section {
   width: 90%;
-  display: flex;
-  flex-direction: row;
+  display: flex; /* Organizamos los elementos dentro de la sección */
+  flex-direction: row; /* Los elementos en la sección estarán en una fila */
 }
 aside p {
-  font-size: 13pt;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-align: justify
+  font-size: 13pt; /* El tamaño de la fuente es de 13 puntos */
+  font-family: Verdana, Geneva, Tahoma, sans-serif; /* Fuentes de respaldo si la primera no está disponible */
+  text-align: justify; /* Alinea el texto de los párrafos de manera justificada */
 }
 article {
   margin: 10px;
   }
 article img {
-margin: 10px 20px 10px 20px;
+margin: 10px 20px 10px 20px; /* Margen de 10px en la parte superior e inferior y 20px en los lados izquierdo y derecho */
  width: 60%;
- height: 7cm;
- float: inline-start;
+ height: 7cm; /* La altura de la imagen será de 7 cm */
+ float: inline-start; /* La imagen flota a la izquierda para permitir que el texto fluya alrededor de ella */
  }
 article h4 {
   margin: 10px;
-  color: cornflowerblue;
+  color: cornflowerblue; /* El color del texto*/
 }  
 #Contenedor2 {
-  display: flex; 
- flex-direction: column;
- margin-top: auto;
- background-color: beige;
+  display: flex; /* Usa flexbox para organizar los elementos dentro del contenedor */
+ flex-direction: column; /* Los elementos estarán dispuestos en una columna */
+ margin-top: auto; /* El margen superior se ajustará automáticamente para empujar los elementos hacia abajo */
+ background-color: beige; /* El fondo del contenedor */
  }
  
  #Contenedor3 {
@@ -57,8 +57,8 @@ article h4 {
   display: block;
 }
 footer p {
-  font-size: 20pt;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20pt; /* El tamaño de la fuente del texto es de 20 puntos */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* fuentes para asegurar que se muestre una fuente sans-serif adecuada */
   text-align: justify;
   }
 
