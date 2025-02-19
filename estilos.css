@@ -1,8 +1,11 @@
 
 #contenedor {
-width: 100%; /* El contenedor ocupa todo el ancho de la página */
-margin: auto; /* Centro el contenedor horizontalmente */
-color: white; /* El color del texto dentro del contenedor sera blanco */
+  width: 100%;
+  margin: auto;
+  color: white;
+  border: 2px solid black; /* Borde de 2px de grosor, color negro */
+  padding: 20px; /* Un poco de espacio interno entre el contenido y el borde */
+  border-radius: 10px; /* Esquinas redondeadas */
 }
 .logo {
 margin: 10px;
