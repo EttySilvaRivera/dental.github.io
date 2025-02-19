@@ -87,7 +87,7 @@
   
   center a:hover {
       background-color: cornflowerblue;
-      color: rgb(223, 55, 55);
+      color: white;
       transform: translateY(-3px);
   }
   
