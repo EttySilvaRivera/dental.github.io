@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	border: 0;
+    padding: 0;
+}
+body {
+	background-color: #857ef3;
+}
+#contenedor {
+	width: 80%;
+	margin: 30px auto;
+}
+
+header {
+	background-color:#f7ff49;
+}
+header h1 {
+	padding: 20px;
+	text-align: center;
+	color: #1e55d2;
+}
+header img {
+	width: 100%;
+	vertical-align: bottom;
+}
+
+nav {
+	background-color: yellow;
+}
+nav a {
+	padding: 10px;
+	text-decoration: none;
+	color: blue;
+	font-size: 18px;
+	display: inline-block;
+}
+
+a:hover {
+    color: red;
+}
+a {
+    transition: color 0.8s linear 0.2s;
+}
+
+main {
+	display: flex;
+}
+
+aside {
+	width: 25%;
+	padding: 20px;
+	background-color: #ffff1e;
+}
+
+aside h3 {
+	padding: 20px 0px;
+}
+aside a {
+	padding: 5px 0px;
+	display: block;
+	color: firebrick;
+}
+
+aside img {
+	width: 80%;
+	margin: 20px auto;
+	display: block;
+}
+
+section {
+	width: 60%;
+	padding: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background-color: white;
+}
+section figure {
+	width: 25%;
+	margin-top: 10px;
+	margin-bottom: 43px;
+	border: 1px solid blue;
+}
+section figure img {
+	width: 80%;
+	margin: 10px auto;
+	display: block;
+}
+section figure figcaption {
+	margin: 10px;
+	text-align: center;
+}
+
+footer {
+	padding: 10px;
+	text-align: center;
+	background-color: #434c91;
+}
+footer p {
+	margin-bottom: 10px;
+	color: white;
+}
+
+img:hover {
+	border-radius: 20px;
+	transition: all 0.3s ease-in-out;
+}
+
+nav a :hover {
+	background-color: white;
+}
+
+aside a:hover {
+	color: blue;
+}
+
+aside audio {
+width: 100%;
+padding: 20px 0px;
+}
+
+aside video {
+	width: 100%;
+	padding: 20px 0px;
+	}
